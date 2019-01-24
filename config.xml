@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="A6093718972934" version="0.0.1"> 
+  <name>wx</name>  
+  <description>wx</description>  
+  <author email="1802397560@qq.com" href="http://www.apicloud.com">ali</author>  
+  <content src="wx.html"/>  
+  <preference name="pageBounce" value="false"/>  
+  <preference name="appBackground" value="rgba(255, 255, 255, 1)"/>  
+  <preference name="windowBackground" value="rgba(0,0,0,0.0)"/>  
+  <preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>  
+  <preference name="hScrollBarEnabled" value="true"/>  
+  <preference name="vScrollBarEnabled" value="true"/>  
+  <preference name="autoLaunch" value="true"/>  
+  <preference name="fullScreen" value="false"/>  
+  <preference name="autoUpdate" value="true"/>  
+  <preference name="smartUpdate" value="false"/>  
+  <preference name="debug" value="true"/>  
+  <preference name="backgroundMode" value="audio"/>  
+  <preference name="iOS7StatusBarAppearance" value="true"/>  
+  <preference name="statusBarAppearance" value="true"/>  
+  <permission name="readPhoneState"/>  
+  <permission name="call"/>  
+  <permission name="sms"/>  
+  <permission name="camera"/>  
+  <permission name="record"/>  
+  <permission name="location"/>  
+  <permission name="fileSystem"/>  
+  <permission name="internet"/>  
+  <permission name="bootCompleted"/>  
+  <permission name="hardware"/>  
+  <permission name="contact"/>  
+  <access origin="*"/>  
+  <feature name="wx"> 
+    <param name="urlScheme" value="wxbab6a4743ce0e571"/>  
+    <param name="apiKey" value="wxbab6a4743ce0e571"/>  
+    <param name="apiSecret" value="0ada5e18b5efda1767ed1c4cf8c28615"/> 
+  </feature> 
+</widget>
